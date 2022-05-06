@@ -33,7 +33,6 @@ export function FeedbackContentStep({ feedbackType, onFeedbackRestartRequested, 
       screenshot,
     })
 
-    console.log(screenshot)
 
     setIsSendingFeedback(false)
     onFeedbackSent();
